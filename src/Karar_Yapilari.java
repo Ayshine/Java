@@ -12,6 +12,7 @@ public class Karar_Yapilari {
      boolean emekli = false;
      boolean devletMemuru = false;
      boolean gazi = false;
+     
      if(yas > 65) 
      {System.out.println("65 yaþ üstü yolcular için bilet ücreti talep edilmemektedir.");}
      else if(yas < 13)
@@ -21,6 +22,14 @@ public class Karar_Yapilari {
      else 
      {System.out.println("Tam bilet ücreti ödemeniz gerekmektedir");} 
      //
+     
+     switch()
+     {
+     case:
+     case: 
+     case:
+     case:
+     }
 	}
 
 }
