@@ -22,13 +22,37 @@ public class Karar_Yapilari {
      else 
      {System.out.println("Tam bilet ücreti ödemeniz gerekmektedir");} 
      //
-     
-     switch()
+     System.out.println("Lütfen ürün kodu giriniz");
+     int urunKodu = sc.nextInt();
+     switch(urunKodu)
      {
-     case:
-     case: 
-     case:
-     case:
+     case 11:
+    	 System.out.println("11 numaralý ürün: bisküvinizi alýnýz");
+    	 break;
+     case 12: 
+    	 System.out.println("12 numaralý ürün: çikolatanýzý alýnýz");
+    	 break;
+     case 13:
+    	 System.out.println("13 numaralý ürün: çubuk krakerinizi alýnýz");
+    	 break;
+     case 21:
+    	 System.out.println("21 numaralý ürün: kolanýzý alýnýz");
+    	 break;
+     case 22:
+    	 System.out.println("22 numaralý ürün:kit-katýnýzý alýnýz");
+    	 break;
+     case 23: 
+    	 System.out.println("23 numaralý ürün: pizza krakerinizi alýnýz ");
+    	 break;
+     case 31:
+    	 System.out.println("31 numaralý ürün:fantanýzý alýnýz.");
+    	 break;
+     case 32:
+     case 33:
+    	 System.out.println("32 ya da 33 numaralý ürün: suyunuzu alýnýz.");
+     default:
+    	 System.out.println("Lütfen ürün kodu giriniz.");
+    	 break;
      }
 	}
 
